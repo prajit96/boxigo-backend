@@ -11,7 +11,6 @@ app.get("/", (req, res)=>{
   res.status(200).send("Welcome to Boxigo Backend")
 })
 
-
 app.get('/api/sample-data', async (req, res) => {
   try {
     
@@ -29,3 +28,4 @@ app.get('/api/sample-data', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
